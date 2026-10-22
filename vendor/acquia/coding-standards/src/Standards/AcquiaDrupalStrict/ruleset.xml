@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset -->
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../../../vendor/squizlabs/php_codesniffer/phpcs.xsd"
+         name="AcquiaDrupalStrict"
+>
+
+  <description>Acquia's strict Drupal coding standards.</description>
+
+  <!-- Drupal sniffs -->
+  <rule ref="AcquiaDrupalMinimal"/>
+
+  <!-- Drupal Practice sniffs -->
+  <rule ref="DrupalPractice"/>
+
+</ruleset>
